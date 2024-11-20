@@ -1,0 +1,6 @@
+.serie-name {
+    color: blue; /* Color azul */
+    font-weight: bold; /* Opcional: hace el texto más destacado */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+  }
+  

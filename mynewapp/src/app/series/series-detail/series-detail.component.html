@@ -1,0 +1,9 @@
+<div *ngIf="serie" class="card">
+    <img [src]="serie.poster" class="card-img-top" alt="{{ serie.name }}">
+    <div class="card-body">
+      <h5 class="card-title">{{ serie.name }}</h5>
+      <p class="card-text">{{ serie.description }}</p>
+      <a [href]="serie.webpage" class="btn btn-primary" target="_blank">More Info</a>
+    </div>
+  </div>
+  
